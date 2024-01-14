@@ -1,0 +1,108 @@
+/* 
+27005D
+9400FF
+AED2FF
+E4F1FF
+
+072541 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@600&display=swap');
+
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEB3B !important;
+    /* background-image: linear-gradient(35deg, #F266AB, #9400FF) !important; */
+    font-family: 'Quicksand', sans-serif;
+}
+.title{
+    font-family: 'Pacifico', cursive;
+}
+.contents{
+    flex: 1;
+    min-height: 100vh;
+}
+.content{
+    background-color: snow ;
+}
+.hero-image{
+    background: url('../img/bg.jpg');
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+.hero-image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+.my-form-control {
+    border: 0;
+    border-bottom: 2px solid #333;
+    outline: 0;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.card{
+    border: 0 !important;
+    box-shadow: 0 2px 2px #333;
+}
+.card, .card img{
+    border-radius: 0 !important;
+}
+
+footer{
+    background-color: #FFC107;
+}
+
+
+.text-main{
+    color: snow !important;
+}
+.text-yellow{
+    color: #FFC107 !important;
+}
+.text-blue{
+    color: #2CD3E1 !important;
+}
+.text-green{
+    color: #4CAF50 !important;
+}
+.text-orange{
+    color: #FF5722  !important;
+}
+.text-link{
+    color: #2196F3 ;
+}
+.bg-green{
+    background-color: #4CAF50 !important;
+}
+
+.my-btn{
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+    background-color: #4CAF50  !important;
+}
+.my-btn:hover{
+    background-color: #FFC107 !important;
+}
+.my-btn2{
+    font-weight: bold !important;
+    color: #FFFFFF !important;
+    background-color: #FFC107  !important;
+}
+.my-btn2:hover{
+    background-color: #FFFFFF !important;
+    color: #4CAF50 !important;
+}
